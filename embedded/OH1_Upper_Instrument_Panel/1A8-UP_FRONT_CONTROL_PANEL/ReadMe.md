@@ -1,42 +1,34 @@
-:Author: scuba82
+:Author: Sandra Carroll
 :Email: {AuthorEmail}
-:Date: 12/06/2023
-:Revision: 1.0#
+:Date: 11/03/2024
+:Revision: 0.1.0A
 :License: Public Domain
 
-= Project:  Open Hornet UFC v5.5 Test
+= Project:  Open Hornet UFC v6.1.0 Test
 
-Testing following features of Open Hornet UFC v5.5
+Testing following features of Open Hornet UFC v6.1
 
-- scratchpad -> DCS-BIOS integartion 
-- OP Displays 1-5 -> DCS-BIOS integartion 
-- COMM Displays 1 & 2 -> DCS-BIOS integartion 
-- Rotary Encoder 1 & 2 -> Serial print a counter 
-- Keypad Matrix -> Interrupt triggered;  Serial print button name; TODO rework PRESS / RELEASE detection
-- ADF Switch  -> Interrupt triggered;  Serial print switch status; TODO rework PRESS / RELEASE detection
-- BIT Switch  -> Interrupt triggered;  Serial print switch status; TODO rework PRESS / RELEASE detection
-- VOL1, VOL2, BRT potis -> Serial print values every 2 sec
-- GO / NOGO LED -> blink GO LED 5 sec; blink NOGO LED 2 sec
+- OPTION CUE 1-5  	Working
+- OPTION DISPLAY 1-5 	WORKING
+- COMM 1-2		WORKING
+- SCRATCHPAD		WORKING
+- SCRATCHPAD BACKLIGHT	WORKING
+- AP KEYBOARD		WORKING
+- UFC KEYBOARD		WORKING
+- ADF ON-OFF-ON		WORKING
+- BRIGHTNESS KNOB	*WORKING (Typedefs', causes random crashes of UFC, looking to move to better ADC ADS1115)
+- COMM1 VOLUME		*WORKING (Typedefs', causes random crashes of UFC, looking to move to better ADC ADS1115)
+- COMM2	VOLUME		*WORKING (Typedefs', causes random crashes of UFC, looking to move to better ADC ADS1115)
+- HUD BIT TEST		WORKING (not used in DCS)
+- HUD GO LED		WORKING (On if In Mission)
+- HUD NOGO LED		WORKING (On if Not in Mission)
+- BACKLIGHTING		WORKING
+- POWER CIRCUIT		*BYPASS (bypassed for testing, see PR#1113)
+- COMM1 CHANNEL		WORKING (Typedefs') 
+- COMM2 CHANNEL		WORKING (Typedefs')
+- COMM1 PULL		WORKING
+- COMM2 PULL		WORKING
 
 == Step 1: Installation
 
-- Install the following DCS-BIOS FP for https://github.com/pavidovich/dcs-bios-arduino-library (enables DCS-BIOS  WIFI capabilities )
-- Edit char ssid[] = "<SSID>";
-- Edit char passwd[] = "<Password>";
-- Install TM16xx library https://github.com/maxint-rd/TM16xx 
-  - Modify character "V" in array "TM16XX_FONT_15SEG" in TM16xxFonts.h  to 0b100100000110000 since the original character is printed backwards
-- Install Adafruit_TCA8418
-
-
-
-
-=== Folder structure
-
-....
- UFC_TEST_ESP32S2                => Arduino sketch folder
-  ├── UFC_TEST_ESP32S2.ino       => main Arduino file
-  ├── CHARSET.h                  => Custom charset for COMM displays
-  ├── HT1621_OH.h .cpp           => Modififed HT1621 library for scratchpad
-  └── ReadMe.adoc                => this file
-....
-
+NOTE:   This is a Visual Studio Code + Platoforio Project for now
