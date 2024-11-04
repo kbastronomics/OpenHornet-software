@@ -31,4 +31,4 @@ Testing following features of Open Hornet UFC v6.1
 
 == Step 1: Installation
 
-NOTE:   This is a Visual Studio Code + Platoforio Project for now
+NOTE:   This is a Visual Studio Code + PlatformIO Project for now
