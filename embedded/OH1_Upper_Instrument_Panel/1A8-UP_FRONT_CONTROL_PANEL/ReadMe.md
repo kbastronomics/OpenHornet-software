@@ -8,6 +8,12 @@
 
 Testing following features of Open Hornet UFC v6.1
 
+| TEST          | STATE         | NOTES |
+| ------------- |:-------------:| -----:|
+| OPTION CUE 1-5| WORKING       |       |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
 - OPTION CUE 1-5  	Working
 - OPTION DISPLAY 1-5 	WORKING
 - COMM 1-2		WORKING

@@ -8,3 +8,7 @@ html
 docs/html
 release/
 embedded/**/build/
+
+embedded/OH2_Lower_Instrument_Panel/2A7A1-STANDBY_CONTROLLER/2A7A1-STANDBY_CONTROLLER/lib/dcs-bios-arduino-library-0.3.10/examples/PRESET___FREQ_UVHF_RADIO_M2000C/PRESET___FREQ_UVHF_RADIO_M2000C.ino
+
+embedded/OH2_Lower_Instrument_Panel/2A7A1-STANDBY_CONTROLLER/2A7A1-STANDBY_CONTROLLER/lib/dcs-bios-arduino-library-0.3.10/examples/PRESET___FREQ_UHF_RADIO_M2000C/PRESET___FREQ_UHF_RADIO_M2000C.ino

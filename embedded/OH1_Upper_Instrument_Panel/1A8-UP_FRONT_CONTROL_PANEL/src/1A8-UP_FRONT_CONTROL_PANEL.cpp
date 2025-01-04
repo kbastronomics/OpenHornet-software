@@ -30,6 +30,13 @@
  *   Please use Doxygen capable comments.
  **************************************************************************************/
 
+/*************************************************************************************************************************
+                                           W O R K  I N   P R O G R E S S
+                                            U S E  A T  O W N  R I S K
+  
+                  Works in Progress are un-tested and validated code.  many features may not function
+ **************************************************************************************************************************/
+
 /**
  * @file 1A8-UP_FRONT_CONTROL_PANEL.ino
  * @author Sandra Carroll, sandra
@@ -985,7 +992,6 @@ void setup() {
   Wire.begin(SDApin, SCLpin);
 
   if (DEBUG) i2cscan();
-
 
   if (DEBUG) Serial.printf("UFC Keyboard Setup\n");
   if (!UFCkeypad.begin(TCA8418_DEFAULT_ADDR, & Wire)) {
