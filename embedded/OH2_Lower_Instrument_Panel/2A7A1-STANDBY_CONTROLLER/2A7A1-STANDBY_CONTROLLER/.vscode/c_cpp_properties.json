@@ -1,0 +1,78 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "C:/Users/smgvb/OneDrive/Documents/GitKracken/OpenHornet-Software/embedded/OH2_Lower_Instrument_Panel/2A7A1-STANDBY_CONTROLLER/2A7A1-STANDBY_CONTROLLER/include",
+                "C:/Users/smgvb/OneDrive/Documents/GitKracken/OpenHornet-Software/embedded/OH2_Lower_Instrument_Panel/2A7A1-STANDBY_CONTROLLER/2A7A1-STANDBY_CONTROLLER/src",
+                "C:/Users/smgvb/OneDrive/Documents/GitKracken/OpenHornet-Software/embedded/OH2_Lower_Instrument_Panel/2A7A1-STANDBY_CONTROLLER/2A7A1-STANDBY_CONTROLLER/lib/RotaryEncoder/src",
+                "C:/Users/smgvb/OneDrive/Documents/GitKracken/OpenHornet-Software/embedded/OH2_Lower_Instrument_Panel/2A7A1-STANDBY_CONTROLLER/2A7A1-STANDBY_CONTROLLER/lib/Adafruit SSD1306",
+                "C:/Users/smgvb/OneDrive/Documents/GitKracken/OpenHornet-Software/embedded/OH2_Lower_Instrument_Panel/2A7A1-STANDBY_CONTROLLER/2A7A1-STANDBY_CONTROLLER/lib/Adafruit NeoPixel",
+                "C:/Users/smgvb/OneDrive/Documents/GitKracken/OpenHornet-Software/embedded/OH2_Lower_Instrument_Panel/2A7A1-STANDBY_CONTROLLER/2A7A1-STANDBY_CONTROLLER/lib/Adafruit GFX Library",
+                "C:/Users/smgvb/OneDrive/Documents/GitKracken/OpenHornet-Software/embedded/OH2_Lower_Instrument_Panel/2A7A1-STANDBY_CONTROLLER/2A7A1-STANDBY_CONTROLLER/lib/Adafruit BusIO",
+                "C:/Users/smgvb/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                "C:/Users/smgvb/OneDrive/Documents/GitKracken/OpenHornet-Software/embedded/OH2_Lower_Instrument_Panel/2A7A1-STANDBY_CONTROLLER/2A7A1-STANDBY_CONTROLLER/lib/AccelStepper/src",
+                "C:/Users/smgvb/OneDrive/Documents/GitKracken/OpenHornet-Software/embedded/OH2_Lower_Instrument_Panel/2A7A1-STANDBY_CONTROLLER/2A7A1-STANDBY_CONTROLLER/lib/TCA9548",
+                "C:/Users/smgvb/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                "C:/Users/smgvb/OneDrive/Documents/GitKracken/OpenHornet-Software/embedded/OH2_Lower_Instrument_Panel/2A7A1-STANDBY_CONTROLLER/2A7A1-STANDBY_CONTROLLER/lib/MultiMap",
+                "C:/Users/smgvb/OneDrive/Documents/GitKracken/OpenHornet-Software/embedded/OH2_Lower_Instrument_Panel/2A7A1-STANDBY_CONTROLLER/2A7A1-STANDBY_CONTROLLER/lib/dcs-bios-arduino-library-0.3.10/src",
+                "C:/Users/smgvb/.platformio/packages/framework-arduino-avr/cores/arduino",
+                "C:/Users/smgvb/.platformio/packages/framework-arduino-avr/variants/mega",
+                "C:/Users/smgvb/OneDrive/Documents/GitKracken/OpenHornet-Software/embedded/OH2_Lower_Instrument_Panel/2A7A1-STANDBY_CONTROLLER/2A7A1-STANDBY_CONTROLLER/lib/FastLED/src",
+                "C:/Users/smgvb/OneDrive/Documents/GitKracken/OpenHornet-Software/embedded/OH2_Lower_Instrument_Panel/2A7A1-STANDBY_CONTROLLER/2A7A1-STANDBY_CONTROLLER/.pio/libdeps/Mega2560-Release/FastLED/src",
+                "C:/Users/smgvb/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                "C:/Users/smgvb/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                "C:/Users/smgvb/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "C:/Users/smgvb/OneDrive/Documents/GitKracken/OpenHornet-Software/embedded/OH2_Lower_Instrument_Panel/2A7A1-STANDBY_CONTROLLER/2A7A1-STANDBY_CONTROLLER/include",
+                    "C:/Users/smgvb/OneDrive/Documents/GitKracken/OpenHornet-Software/embedded/OH2_Lower_Instrument_Panel/2A7A1-STANDBY_CONTROLLER/2A7A1-STANDBY_CONTROLLER/src",
+                    "C:/Users/smgvb/OneDrive/Documents/GitKracken/OpenHornet-Software/embedded/OH2_Lower_Instrument_Panel/2A7A1-STANDBY_CONTROLLER/2A7A1-STANDBY_CONTROLLER/lib/RotaryEncoder/src",
+                    "C:/Users/smgvb/OneDrive/Documents/GitKracken/OpenHornet-Software/embedded/OH2_Lower_Instrument_Panel/2A7A1-STANDBY_CONTROLLER/2A7A1-STANDBY_CONTROLLER/lib/Adafruit SSD1306",
+                    "C:/Users/smgvb/OneDrive/Documents/GitKracken/OpenHornet-Software/embedded/OH2_Lower_Instrument_Panel/2A7A1-STANDBY_CONTROLLER/2A7A1-STANDBY_CONTROLLER/lib/Adafruit NeoPixel",
+                    "C:/Users/smgvb/OneDrive/Documents/GitKracken/OpenHornet-Software/embedded/OH2_Lower_Instrument_Panel/2A7A1-STANDBY_CONTROLLER/2A7A1-STANDBY_CONTROLLER/lib/Adafruit GFX Library",
+                    "C:/Users/smgvb/OneDrive/Documents/GitKracken/OpenHornet-Software/embedded/OH2_Lower_Instrument_Panel/2A7A1-STANDBY_CONTROLLER/2A7A1-STANDBY_CONTROLLER/lib/Adafruit BusIO",
+                    "C:/Users/smgvb/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                    "C:/Users/smgvb/OneDrive/Documents/GitKracken/OpenHornet-Software/embedded/OH2_Lower_Instrument_Panel/2A7A1-STANDBY_CONTROLLER/2A7A1-STANDBY_CONTROLLER/lib/AccelStepper/src",
+                    "C:/Users/smgvb/OneDrive/Documents/GitKracken/OpenHornet-Software/embedded/OH2_Lower_Instrument_Panel/2A7A1-STANDBY_CONTROLLER/2A7A1-STANDBY_CONTROLLER/lib/TCA9548",
+                    "C:/Users/smgvb/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                    "C:/Users/smgvb/OneDrive/Documents/GitKracken/OpenHornet-Software/embedded/OH2_Lower_Instrument_Panel/2A7A1-STANDBY_CONTROLLER/2A7A1-STANDBY_CONTROLLER/lib/MultiMap",
+                    "C:/Users/smgvb/OneDrive/Documents/GitKracken/OpenHornet-Software/embedded/OH2_Lower_Instrument_Panel/2A7A1-STANDBY_CONTROLLER/2A7A1-STANDBY_CONTROLLER/lib/dcs-bios-arduino-library-0.3.10/src",
+                    "C:/Users/smgvb/.platformio/packages/framework-arduino-avr/cores/arduino",
+                    "C:/Users/smgvb/.platformio/packages/framework-arduino-avr/variants/mega",
+                    "C:/Users/smgvb/OneDrive/Documents/GitKracken/OpenHornet-Software/embedded/OH2_Lower_Instrument_Panel/2A7A1-STANDBY_CONTROLLER/2A7A1-STANDBY_CONTROLLER/lib/FastLED/src",
+                    "C:/Users/smgvb/OneDrive/Documents/GitKracken/OpenHornet-Software/embedded/OH2_Lower_Instrument_Panel/2A7A1-STANDBY_CONTROLLER/2A7A1-STANDBY_CONTROLLER/.pio/libdeps/Mega2560-Release/FastLED/src",
+                    "C:/Users/smgvb/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                    "C:/Users/smgvb/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                    "C:/Users/smgvb/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=60116",
+                "ARDUINO_AVR_MEGA2560",
+                "F_CPU=16000000L",
+                "ARDUINO_ARCH_AVR",
+                "ARDUINO=10808",
+                "__AVR_ATmega2560__",
+                ""
+            ],
+            "cStandard": "gnu11",
+            "cppStandard": "gnu++11",
+            "compilerPath": "C:/Users/smgvb/.platformio/packages/toolchain-atmelavr/bin/avr-gcc.exe",
+            "compilerArgs": [
+                "-mmcu=atmega2560",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
